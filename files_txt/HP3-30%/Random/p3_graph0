@@ -1,0 +1,12 @@
+graph {
+	1 [color=red style=filled]
+	2
+	3 [color=red style=filled]
+	4 [color=red style=filled]
+	5 [color=red style=filled]
+	1 -- 2
+	2 -- 5
+	3 -- 1
+	4 -- 4
+	5 -- 1
+}
